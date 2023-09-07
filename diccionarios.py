@@ -14,5 +14,9 @@ diccionario = {
 
 numero = input('Ingrese un numero del 1 al diez')
 
-print (diccionario[numero])
+textoFinal = ''
 
+for letra in numero:
+    textoFinal += diccionario[letra] + ' '
+
+print (textoFinal)
